@@ -1,5 +1,5 @@
 <mujoco model="rby1">
-  <include file="./rby1.xml" />
+  <include file="rby1.xml" />
 
   <option timestep="0.002" solver="Newton" iterations="30" tolerance="1e-6" />
   <option integrator="implicitfast" cone="elliptic" impratio="100"/>
